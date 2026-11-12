@@ -14,9 +14,15 @@ FROM node:${NODE_VERSION}-alpine AS builder
 RUN corepack enable
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
-# Public origin used for metadataBase / Open Graph; pass with --build-arg
+# Public origin used for metadataBase / canonical / Open Graph. Pages are prerendered during `next build`,
+# so it must be available here (Render passes service env vars to Docker builds as build args).
+# Empty / missing values are ignored by lib/site.ts. Not a secret.
 ARG NEXT_PUBLIC_SITE_URL
-ENV NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
+ARG SITE_URL
+ARG RENDER_EXTERNAL_URL
+ENV NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL} \
+    SITE_URL=${SITE_URL} \
+    RENDER_EXTERNAL_URL=${RENDER_EXTERNAL_URL}
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN pnpm build
