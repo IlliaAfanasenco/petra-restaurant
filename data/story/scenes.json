@@ -1,0 +1,120 @@
+{
+  "project": "Petra Bar & Kitchen",
+  "source": "petra-story-master.mp4",
+  "width": 1280,
+  "height": 720,
+  "fps_source": 24,
+  "fps_webp": 12,
+  "background_hex": "#F2E9DA",
+  "total_duration": 23.5,
+  "scenes": [
+    {
+      "id": "petra-scene-01",
+      "slug": "egg-appears",
+      "startSeconds": 0,
+      "endSeconds": 4.5,
+      "durationSeconds": 4.5,
+      "frames12fps": {
+        "start": 0,
+        "endExclusive": 54
+      },
+      "titles": {
+        "he": "הביצה מופיעה",
+        "ru": "Яйцо появляется",
+        "en": "The egg appears"
+      },
+      "clip": "assets/scenes/petra-scene-01-egg-appears.mp4",
+      "poster": "assets/posters/petra-scene-01.webp"
+    },
+    {
+      "id": "petra-scene-02",
+      "slug": "egg-cracks",
+      "startSeconds": 4.5,
+      "endSeconds": 6.75,
+      "durationSeconds": 2.25,
+      "frames12fps": {
+        "start": 54,
+        "endExclusive": 81
+      },
+      "titles": {
+        "he": "הביצה נשברת",
+        "ru": "Скорлупа раскалывается",
+        "en": "The egg cracks"
+      },
+      "clip": "assets/scenes/petra-scene-02-egg-cracks.mp4",
+      "poster": "assets/posters/petra-scene-02.webp"
+    },
+    {
+      "id": "petra-scene-03",
+      "slug": "dough-begins",
+      "startSeconds": 6.75,
+      "endSeconds": 11.25,
+      "durationSeconds": 4.5,
+      "frames12fps": {
+        "start": 81,
+        "endExclusive": 135
+      },
+      "titles": {
+        "he": "תחילת הבצק",
+        "ru": "От яйца к тесту",
+        "en": "The dough begins"
+      },
+      "clip": "assets/scenes/petra-scene-03-dough-begins.mp4",
+      "poster": "assets/posters/petra-scene-03.webp"
+    },
+    {
+      "id": "petra-scene-04",
+      "slug": "shape-the-boat",
+      "startSeconds": 11.25,
+      "endSeconds": 16,
+      "durationSeconds": 4.75,
+      "frames12fps": {
+        "start": 135,
+        "endExclusive": 192
+      },
+      "titles": {
+        "he": "צורת החצ׳פורי",
+        "ru": "Форма хачапури",
+        "en": "Shape the khachapuri"
+      },
+      "clip": "assets/scenes/petra-scene-04-shape-the-boat.mp4",
+      "poster": "assets/posters/petra-scene-04.webp"
+    },
+    {
+      "id": "petra-scene-05",
+      "slug": "add-the-cheese",
+      "startSeconds": 16,
+      "endSeconds": 19.25,
+      "durationSeconds": 3.25,
+      "frames12fps": {
+        "start": 192,
+        "endExclusive": 231
+      },
+      "titles": {
+        "he": "מוסיפים גבינה",
+        "ru": "Добавляем сыр",
+        "en": "Adding cheese"
+      },
+      "clip": "assets/scenes/petra-scene-05-add-the-cheese.mp4",
+      "poster": "assets/posters/petra-scene-05.webp"
+    },
+    {
+      "id": "petra-scene-06",
+      "slug": "freshly-baked",
+      "startSeconds": 19.25,
+      "endSeconds": 23.5,
+      "durationSeconds": 4.25,
+      "frames12fps": {
+        "start": 231,
+        "endExclusive": 282
+      },
+      "titles": {
+        "he": "ישר מהתנור",
+        "ru": "Выпекание",
+        "en": "Fresh from the oven"
+      },
+      "clip": "assets/scenes/petra-scene-06-freshly-baked.mp4",
+      "poster": "assets/posters/petra-scene-06.webp"
+    }
+  ]
+}

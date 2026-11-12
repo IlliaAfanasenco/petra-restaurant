@@ -1,0 +1,2814 @@
+{
+  "catalogName": "Petra Bar & Kitchen",
+  "status": "draft-needs-restaurant-approval",
+  "reference": {
+    "restaurant": "Petra Bar & Kitchen",
+    "url": "https://petrarest.co.il/",
+    "verifiedDate": "2026-11-11",
+    "notes": "Original Petra Bar & Kitchen menu transcribed from supplied screenshots. Restaurant should verify prices, dish descriptions, variants, allergens and opening/delivery details before publishing."
+  },
+  "currency": "ILS",
+  "locales": [
+    "he",
+    "ru",
+    "en"
+  ],
+  "categories": [
+    {
+      "id": "starters",
+      "name": {
+        "ru": "Закуски",
+        "en": "Starters",
+        "he": "פותחים שולחן"
+      },
+      "sortOrder": 0
+    },
+    {
+      "id": "georgian",
+      "name": {
+        "ru": "Грузинская кухня",
+        "en": "Georgian Cuisine",
+        "he": "מאכלים גיאורגיים"
+      },
+      "sortOrder": 1
+    },
+    {
+      "id": "soups",
+      "name": {
+        "ru": "Супы",
+        "en": "Soups",
+        "he": "מרקים"
+      },
+      "sortOrder": 2
+    },
+    {
+      "id": "salads",
+      "name": {
+        "ru": "Салаты",
+        "en": "Salads",
+        "he": "סלטים"
+      },
+      "sortOrder": 3
+    },
+    {
+      "id": "italian",
+      "name": {
+        "ru": "Итальянская кухня",
+        "en": "Italian Cuisine",
+        "he": "נגיעה מאיטליה"
+      },
+      "sortOrder": 4
+    },
+    {
+      "id": "meat",
+      "name": {
+        "ru": "Мясные блюда",
+        "en": "Meat Dishes",
+        "he": "בשרים"
+      },
+      "sortOrder": 5
+    },
+    {
+      "id": "burgers",
+      "name": {
+        "ru": "Бургеры",
+        "en": "Burgers",
+        "he": "המבורגרים"
+      },
+      "sortOrder": 6
+    },
+    {
+      "id": "fish",
+      "name": {
+        "ru": "Рыба",
+        "en": "Fish",
+        "he": "דגים"
+      },
+      "sortOrder": 7
+    },
+    {
+      "id": "seafood",
+      "name": {
+        "ru": "Морепродукты",
+        "en": "Seafood",
+        "he": "פירות ים"
+      },
+      "sortOrder": 8
+    },
+    {
+      "id": "breakfast",
+      "name": {
+        "ru": "Завтраки",
+        "en": "Breakfast",
+        "he": "ארוחות בוקר"
+      },
+      "sortOrder": 9
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "ru": "Десерты",
+        "en": "Desserts",
+        "he": "קינוחים"
+      },
+      "sortOrder": 10
+    }
+  ],
+  "items": [
+    {
+      "id": "starters-spicy-appetizer-platter",
+      "categoryId": "starters",
+      "name": {
+        "he": "צלחת חריפים",
+        "ru": "Ассорти острых закусок",
+        "en": "Spicy Appetizer Platter"
+      },
+      "description": {
+        "he": "2 יחידות פלפל חריף, פלפל שיפקה, סחוג ומטבוחה; מוגש עם שמן זית ולחם",
+        "ru": "Острый перец, перец шифка, схуг и матбуха с оливковым маслом и хлебом.",
+        "en": "Hot peppers, shifka peppers, schug and matbucha, served with olive oil and bread."
+      },
+      "priceILS": 26,
+      "priceDisplay": "26",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-fish-carpaccio",
+      "categoryId": "starters",
+      "name": {
+        "he": "קרפצ'ו דג",
+        "ru": "Карпаччо из рыбы",
+        "en": "Fish Carpaccio"
+      },
+      "description": {
+        "he": "בנוסח תאילנדי עם פקאן שבור, מלפפונים ובצל",
+        "ru": "В тайском стиле с дроблёным пеканом, огурцами и луком.",
+        "en": "Thai-style with crushed pecans, cucumber and onion."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-georgian-pickles",
+      "categoryId": "starters",
+      "name": {
+        "he": "חמוצים גיאורגיים",
+        "ru": "Грузинские соленья",
+        "en": "Georgian Pickles"
+      },
+      "description": {
+        "he": "מלפפון, עגבנייה וכרוב כבושים בסגנון גרוזיני פיקנטי",
+        "ru": "Маринованные огурцы, помидоры и капуста в пикантном грузинском стиле.",
+        "en": "Cucumber, tomato and cabbage pickled in a spicy Georgian style."
+      },
+      "priceILS": 60,
+      "priceDisplay": "60",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-chicken-liver-p-t",
+      "categoryId": "starters",
+      "name": {
+        "he": "פטה כבד עוף",
+        "ru": "Паштет из куриной печени",
+        "en": "Chicken Liver Pâté"
+      },
+      "description": {
+        "he": "מוגש בעלי בלינצ'ס גיאורגי, מקורמל וריבת שרי מעל",
+        "ru": "Паштет в грузинском блинчике с карамелизацией и вишнёвым конфитюром.",
+        "en": "Served in a Georgian blini, caramelized and topped with cherry preserves."
+      },
+      "priceILS": 54,
+      "priceDisplay": "54",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-hummus",
+      "categoryId": "starters",
+      "name": {
+        "he": "חומוס",
+        "ru": "Хумус",
+        "en": "Hummus"
+      },
+      "description": {
+        "he": "מוגש בליווי פיתות חמות",
+        "ru": "Подаётся с тёплыми питами.",
+        "en": "Served with warm pita bread."
+      },
+      "priceILS": 38,
+      "priceDisplay": "38",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-mushroom-hummus",
+      "categoryId": "starters",
+      "name": {
+        "he": "חומוס פטריות",
+        "ru": "Хумус с грибами",
+        "en": "Mushroom Hummus"
+      },
+      "description": {
+        "he": "מוגש בליווי פיתות חמות",
+        "ru": "Хумус с грибами, подаётся с тёплыми питами.",
+        "en": "Hummus with mushrooms, served with warm pita bread."
+      },
+      "priceILS": 46,
+      "priceDisplay": "46",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-fish-chips",
+      "categoryId": "starters",
+      "name": {
+        "he": "פיש&צ'יפס",
+        "ru": "Фиш-энд-чипс",
+        "en": "Fish & Chips"
+      },
+      "description": {
+        "he": "כ-350 גרם דג קוד מטוגן ומתובל לצד מטבלים",
+        "ru": "Около 350 г жареной трески со специями и соусами.",
+        "en": "Approximately 350 g of seasoned fried cod with dipping sauces."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-saut-ed-mushrooms",
+      "categoryId": "starters",
+      "name": {
+        "he": "פטריות מוקפצות",
+        "ru": "Обжаренные грибы",
+        "en": "Sautéed Mushrooms"
+      },
+      "description": {
+        "he": "פטריות שמפיניון מוקפצות במחבת לוהטת ברוטב שום, חמאה ודבש / ברוטב שום ושמנת",
+        "ru": "Шампиньоны на горячей сковороде: с чесноком, маслом и мёдом либо с чесночно-сливочным соусом.",
+        "en": "Hot-pan sautéed mushrooms with garlic, butter and honey, or garlic cream sauce."
+      },
+      "priceILS": null,
+      "priceDisplay": "58/66",
+      "isNewOnSource": false,
+      "image": null,
+      "review": [
+        "confirm-price-variants"
+      ]
+    },
+    {
+      "id": "starters-petra-grilled-eggplant",
+      "categoryId": "starters",
+      "name": {
+        "he": "חציל פטרה [בלאדי]",
+        "ru": "Баклажан Petra на гриле",
+        "en": "Petra Grilled Eggplant"
+      },
+      "description": {
+        "he": "חציל בלאדי קלוי על הגריל עם טחינה, אריסה, בליווי לחם",
+        "ru": "Баклажан балади на гриле с тахини, хариссой и хлебом.",
+        "en": "Grilled baladi eggplant with tahini, harissa and bread."
+      },
+      "priceILS": 64,
+      "priceDisplay": "64",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-georgian-eggplant-rolls",
+      "categoryId": "starters",
+      "name": {
+        "he": "גלילת חצילים גיאורגית",
+        "ru": "Грузинские рулетики из баклажанов",
+        "en": "Georgian Eggplant Rolls"
+      },
+      "description": {
+        "he": "5 יחידות במילוי תערובת גיאורגית של אגוזים ושום, פיקנטי",
+        "ru": "5 рулетиков из баклажанов с пикантной грузинской начинкой из орехов и чеснока.",
+        "en": "Five eggplant rolls stuffed with a spicy Georgian walnut-and-garlic mixture."
+      },
+      "priceILS": 52,
+      "priceDisplay": "52",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-georgian-meat-blini",
+      "categoryId": "starters",
+      "name": {
+        "he": "בליני בשרי",
+        "ru": "Блинчики с мясом",
+        "en": "Georgian Meat Blini"
+      },
+      "description": {
+        "he": "4 בלינצ'ס גיאורגיים ממולאים בבשר בקר פיקנטי, מוגש בליווי רוטב שזיפים גיאורגי",
+        "ru": "Четыре грузинских блинчика с пикантной говядиной и сливовым соусом.",
+        "en": "Four Georgian crêpes filled with spiced beef, served with Georgian plum sauce."
+      },
+      "priceILS": 58,
+      "priceDisplay": "58",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-beef-fillet-tartare",
+      "categoryId": "starters",
+      "name": {
+        "he": "טרטר פילה בקר",
+        "ru": "Тартар из говяжьего филе",
+        "en": "Beef Fillet Tartare"
+      },
+      "description": {
+        "he": "בתיבול אנשובי, צלפים קצוצים וביצת שליו, מוגש על לחם בריוש",
+        "ru": "Тартар с анчоусами, рублеными каперсами и перепелиным яйцом на бриоши.",
+        "en": "Seasoned with anchovies, chopped capers and quail egg, served on brioche."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-georgian-fish-patties",
+      "categoryId": "starters",
+      "name": {
+        "he": "קטלטי דגים",
+        "ru": "Грузинские рыбные котлеты",
+        "en": "Georgian Fish Patties"
+      },
+      "description": {
+        "he": "4 יחידות קציצות דגים גיאורגיות מוגש עם רוטב מז'אווה",
+        "ru": "Четыре грузинские рыбные котлеты с соусом мжаве.",
+        "en": "Four Georgian fish patties served with mzhave sauce."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-sweet-potato-with-creamy-mushrooms",
+      "categoryId": "starters",
+      "name": {
+        "he": "בטטה שמנת פטריות",
+        "ru": "Батат с грибами в сливках",
+        "en": "Sweet Potato with Creamy Mushrooms"
+      },
+      "description": {
+        "he": "בטטה אפויה חצויה במילוי גבינה בולגרית עם פטריות בשמנת מעל",
+        "ru": "Запечённый батат с болгарским сыром и грибами в сливочном соусе.",
+        "en": "Baked sweet potato filled with Bulgarian-style cheese and creamy mushrooms."
+      },
+      "priceILS": 58,
+      "priceDisplay": "58",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-red-fish-roe-spread",
+      "categoryId": "starters",
+      "name": {
+        "he": "איקרה אדומה",
+        "ru": "Красная икра (намазка)",
+        "en": "Red Fish Roe Spread"
+      },
+      "description": {
+        "he": "ממרח ביצי דגים עם סלט עגבניות חריף ובצל קצוץ, מוגש עם פיתות חמות",
+        "ru": "Икорная намазка с острым томатным салатом и рубленым луком; с тёплыми питами.",
+        "en": "Fish-roe spread with spicy tomato salad and chopped onion, served with warm pita."
+      },
+      "priceILS": 72,
+      "priceDisplay": "72",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-smoked-fish-platter",
+      "categoryId": "starters",
+      "name": {
+        "he": "פלטת מעושנים",
+        "ru": "Ассорти копчёной рыбы",
+        "en": "Smoked Fish Platter"
+      },
+      "description": {
+        "he": "דואט פילה מטיאס אדום ולבן וסלמון מעושן, בצל סגול, עירית, מוגש עם לחם",
+        "ru": "Дуэт филе сельди матиас и копчёного лосося с красным луком, шнитт-луком и хлебом.",
+        "en": "Matjes herring fillets and smoked salmon with red onion, chives and bread."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-potatoes-with-mushrooms-poached-egg",
+      "categoryId": "starters",
+      "name": {
+        "he": "תפוח אדמה עלומה",
+        "ru": "Картофель с грибами и яйцом пашот",
+        "en": "Potatoes with Mushrooms & Poached Egg"
+      },
+      "description": {
+        "he": "פטריות בשמנת מעל קוביות תפוחי אדמה מטוגנות ומתובלות, ביצה עלומה",
+        "ru": "Обжаренные пряные кубики картофеля с грибами в сливках и яйцом пашот.",
+        "en": "Seasoned fried potato cubes topped with creamy mushrooms and a poached egg."
+      },
+      "priceILS": 76,
+      "priceDisplay": "76",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-house-bread",
+      "categoryId": "starters",
+      "name": {
+        "he": "לחם הבית",
+        "ru": "Домашний хлеб",
+        "en": "House Bread"
+      },
+      "description": {
+        "he": "מוגש בליווי מטבלים משתנים",
+        "ru": "Подаётся с ассортиментом соусов и дипов.",
+        "en": "Served with a selection of changing dips."
+      },
+      "priceILS": 42,
+      "priceDisplay": "42",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-beef-carpaccio",
+      "categoryId": "starters",
+      "name": {
+        "he": "קרפצ'ו בקר",
+        "ru": "Карпаччо из говядины",
+        "en": "Beef Carpaccio"
+      },
+      "description": {
+        "he": "בליווי שמן זית, בלסמי מצומצם, תיבול גס, שום קונפי, פלפל חריף וביצת שליו",
+        "ru": "С оливковым маслом, бальзамической глазурью, чесночным конфи, острым перцем и перепелиным яйцом.",
+        "en": "With olive oil, balsamic reduction, confit garlic, chili and quail egg."
+      },
+      "priceILS": 74,
+      "priceDisplay": "74",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-carciofi-artichokes",
+      "categoryId": "starters",
+      "name": {
+        "he": "ארטישוק קרצ'ופי",
+        "ru": "Артишоки карчофи",
+        "en": "Carciofi Artichokes"
+      },
+      "description": {
+        "he": "חצאי ארטישוק כבושים מוקפצים בשמנת, צ'ילי, חמאה, פרמז'ן ופטרוזיליה",
+        "ru": "Маринованные половинки артишоков, обжаренные со сливками, чили, маслом, пармезаном и петрушкой.",
+        "en": "Marinated artichoke halves sautéed with cream, chili, butter, Parmesan and parsley."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-pelmeni",
+      "categoryId": "starters",
+      "name": {
+        "he": "פילמני",
+        "ru": "Пельмени",
+        "en": "Pelmeni"
+      },
+      "description": {
+        "he": "10 כיסוני בצק ממולאים בבשר בקר, מבושלים במים, בליווי שמנת חמוצה",
+        "ru": "10 пельменей с говядиной, отваренных в воде; со сметаной.",
+        "en": "Ten boiled beef-filled dumplings served with sour cream."
+      },
+      "priceILS": 74,
+      "priceDisplay": "74",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-georgian-cheese-blini",
+      "categoryId": "starters",
+      "name": {
+        "he": "בליני חלבי",
+        "ru": "Блинчики с грузинским сыром",
+        "en": "Georgian Cheese Blini"
+      },
+      "description": {
+        "he": "4 בלינצ'ס גיאורגיים ממולאים בגבינות גיאורגיות, בליווי שמנת וקוויאר אדום",
+        "ru": "Четыре грузинских блинчика с сыром, сметаной и красной икрой.",
+        "en": "Four Georgian cheese-filled crêpes with sour cream and red caviar."
+      },
+      "priceILS": 58,
+      "priceDisplay": "58",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-creamy-garlic-mushrooms",
+      "categoryId": "starters",
+      "name": {
+        "he": "פטריות מוקפצות ברוטב שום שמנת",
+        "ru": "Шампиньоны в чесночно-сливочном соусе",
+        "en": "Creamy Garlic Mushrooms"
+      },
+      "description": {
+        "he": "פטריות שמפיניון על מחבת לוהטת ברוטב שמנת",
+        "ru": "Шампиньоны на горячей сковороде в сливочном соусе.",
+        "en": "Hot-pan mushrooms in a creamy garlic sauce."
+      },
+      "priceILS": 66,
+      "priceDisplay": "66",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-balkan-style-eggplant",
+      "categoryId": "starters",
+      "name": {
+        "he": "חציל בלקני",
+        "ru": "Балканский баклажан",
+        "en": "Balkan-Style Eggplant"
+      },
+      "description": {
+        "he": "חציל קלוי על הגריל עם פלפלים, שום, זיתים, פטרוזיליה, שמן זית וגבינת פטה מגורדת",
+        "ru": "Баклажан на гриле с перцем, чесноком, оливками, петрушкой, оливковым маслом и фетой.",
+        "en": "Grilled eggplant with peppers, garlic, olives, parsley, olive oil and grated feta."
+      },
+      "priceILS": 64,
+      "priceDisplay": "64",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-edamame",
+      "categoryId": "starters",
+      "name": {
+        "he": "צלחת אדממה",
+        "ru": "Эдамаме",
+        "en": "Edamame"
+      },
+      "description": {
+        "he": "פולי סויה מאודים במים, מוגש בליווי מלח גס ולימון בצד",
+        "ru": "Отварные соевые бобы с крупной солью и лимоном.",
+        "en": "Steamed soybeans with coarse salt and lemon."
+      },
+      "priceILS": 46,
+      "priceDisplay": "46",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "starters-fish-filo-cigars",
+      "categoryId": "starters",
+      "name": {
+        "he": "סיגר דגים",
+        "ru": "Рыбные сигары из теста фило",
+        "en": "Fish Filo Cigars"
+      },
+      "description": {
+        "he": "4 יחידות עלי פילו ממולאים בדג אמנון ותבלינים מוגש עם אריסה, צזיקי ולימון",
+        "ru": "Четыре хрустящие трубочки фило с тилапией и специями; с хариссой, дзадзики и лимоном.",
+        "en": "Four filo pastries filled with tilapia and spices, served with harissa, tzatziki and lemon."
+      },
+      "priceILS": 76,
+      "priceDisplay": "76",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "italian-creamy-pappardelle",
+      "categoryId": "italian",
+      "name": {
+        "he": "פפרדלה שמנת",
+        "ru": "Паппарделле в сливочном соусе",
+        "en": "Creamy Pappardelle"
+      },
+      "description": {
+        "he": "פפרדלה ברוטב שמנת",
+        "ru": "Паппарделле в сливочном соусе.",
+        "en": "Pappardelle pasta in cream sauce."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "italian-creamy-mushroom-pappardelle",
+      "categoryId": "italian",
+      "name": {
+        "he": "פפרדלה שמנת פטריות",
+        "ru": "Паппарделле с грибами в сливках",
+        "en": "Creamy Mushroom Pappardelle"
+      },
+      "description": {
+        "he": "פפרדלה ברוטב שמנת ופטריות",
+        "ru": "Паппарделле с грибами в сливочном соусе.",
+        "en": "Pappardelle with mushrooms in cream sauce."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "italian-four-cheese-pappardelle",
+      "categoryId": "italian",
+      "name": {
+        "he": "פפרדלה 4 גבינות",
+        "ru": "Паппарделле «Четыре сыра»",
+        "en": "Four-Cheese Pappardelle"
+      },
+      "description": {
+        "he": "פפרדלה ברוטב ארבע גבינות",
+        "ru": "Паппарделле в соусе из четырёх сыров.",
+        "en": "Pappardelle in a four-cheese sauce."
+      },
+      "priceILS": 80,
+      "priceDisplay": "80",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "italian-four-cheese-salmon-pappardelle",
+      "categoryId": "italian",
+      "name": {
+        "he": "פפרדלה 4 גבינות וסלמון",
+        "ru": "Паппарделле «Четыре сыра» с лососем",
+        "en": "Four-Cheese Salmon Pappardelle"
+      },
+      "description": {
+        "he": "פפרדלה ברוטב ארבע גבינות ונתחי סלמון",
+        "ru": "Паппарделле с четырьмя сырами и кусочками лосося.",
+        "en": "Pappardelle with four-cheese sauce and salmon pieces."
+      },
+      "priceILS": 88,
+      "priceDisplay": "88",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "italian-aglio-e-olio-pasta",
+      "categoryId": "italian",
+      "name": {
+        "he": "פסטה אלי אוליו",
+        "ru": "Паста алио-олио",
+        "en": "Aglio e Olio Pasta"
+      },
+      "description": {
+        "he": "פסטה מוקפצת עם שמן זית, זיתי קלמטה, עגבניות שרי, בזיליקום, פטרוזיליה, שום ותבלינים",
+        "ru": "Паста с оливковым маслом, оливками каламата, черри, базиликом, петрушкой и чесноком.",
+        "en": "Pasta with olive oil, Kalamata olives, cherry tomatoes, basil, parsley and garlic."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "italian-creamy-chicken-pappardelle",
+      "categoryId": "italian",
+      "name": {
+        "he": "פסטה אמריקאית",
+        "ru": "Паста с курицей в сливочном соусе",
+        "en": "Creamy Chicken Pappardelle"
+      },
+      "description": {
+        "he": "פפרדלה ברוטב שמנת בתוספת חזה עוף בגריל וטוסקנה",
+        "ru": "Паппарделле в сливочном соусе с куриной грудкой на гриле и тосканскими специями.",
+        "en": "Creamy pappardelle with grilled chicken breast and Tuscan seasoning."
+      },
+      "priceILS": 96,
+      "priceDisplay": "96",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "italian-petra-pizza",
+      "categoryId": "italian",
+      "name": {
+        "he": "פיצה פטרה",
+        "ru": "Пицца Petra",
+        "en": "Petra Pizza"
+      },
+      "description": {
+        "he": "פיצה מבצק מחמצת עם פפרוני ואקסטרה גבינה",
+        "ru": "Пицца на закваске с пепперони и дополнительным сыром.",
+        "en": "Sourdough pizza with pepperoni and extra cheese."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "italian-rectangular-sourdough-pizza",
+      "categoryId": "italian",
+      "name": {
+        "he": "פיצה מלבנית",
+        "ru": "Прямоугольная пицца",
+        "en": "Rectangular Sourdough Pizza"
+      },
+      "description": {
+        "he": "פיצה מבצק מחמצת",
+        "ru": "Прямоугольная пицца на тесте с закваской.",
+        "en": "Rectangular pizza made from sourdough."
+      },
+      "priceILS": 72,
+      "priceDisplay": "72",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "salads-petra-burrata-salad",
+      "categoryId": "salads",
+      "name": {
+        "he": "סלט פטרה",
+        "ru": "Салат Petra с бурратой",
+        "en": "Petra Burrata Salad"
+      },
+      "description": {
+        "he": "עגבניות שרי ומגי, פלפלוני טינקרבל, מיני מלפפון, צנונית, ארטישוק איטלקי, בזיליקום, בצל סגול, רוקט, רוטב בלסמי, שמן זית, לימון וגבינת בוראטה",
+        "ru": "Черри и другие томаты, мини-огурцы, редис, артишоки, базилик, красный лук, руккола, бальзамик, оливковое масло, лимон и буррата.",
+        "en": "Cherry tomatoes, mini cucumbers, radish, Italian artichoke, basil, red onion, arugula, balsamic dressing and burrata."
+      },
+      "priceILS": 88,
+      "priceDisplay": "88",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "salads-smoked-salmon-salad",
+      "categoryId": "salads",
+      "name": {
+        "he": "סלט סלמון",
+        "ru": "Салат с копчёным лососем",
+        "en": "Smoked Salmon Salad"
+      },
+      "description": {
+        "he": "סלמון מעושן, חסה, שרי, מלפפון, פלפל קלוי, פטריות טריות, קרוטונים ועגבניות מיובשות",
+        "ru": "Копчёный лосось, салат, черри, огурец, печёный перец, свежие грибы, крутоны и вяленые томаты.",
+        "en": "Smoked salmon, lettuce, cherry tomatoes, cucumber, roasted peppers, fresh mushrooms, croutons and sun-dried tomatoes."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "salads-salmon-caesar-salad",
+      "categoryId": "salads",
+      "name": {
+        "he": "סלט קיסר סלמון",
+        "ru": "Цезарь с лососем",
+        "en": "Salmon Caesar Salad"
+      },
+      "description": {
+        "he": "סלט קיסר קלאסי עם סלמון אפוי מפורק ופרמז'ן מגורד",
+        "ru": "Классический «Цезарь» с запечённым лососем и пармезаном.",
+        "en": "Classic Caesar salad with flaked baked salmon and grated Parmesan."
+      },
+      "priceILS": 88,
+      "priceDisplay": "88",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "salads-chicken-caesar-salad",
+      "categoryId": "salads",
+      "name": {
+        "he": "סלט קיסר עוף",
+        "ru": "Цезарь с курицей",
+        "en": "Chicken Caesar Salad"
+      },
+      "description": {
+        "he": "חסה, שרי, בצל סגול, קרוטונים, פרמז'ן ועוף ברוטב קיסר קלאסי",
+        "ru": "Салатные листья, черри, красный лук, крутоны, пармезан, курица и соус «Цезарь».",
+        "en": "Lettuce, cherry tomatoes, red onion, croutons, Parmesan and chicken with Caesar dressing."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "salads-chopped-vegetable-salad",
+      "categoryId": "salads",
+      "name": {
+        "he": "סלט קצוץ",
+        "ru": "Овощной салат",
+        "en": "Chopped Vegetable Salad"
+      },
+      "description": {
+        "he": "עגבנייה, מלפפון, בצל, כרוב לבן ואדום קצוץ, טחינה בצד",
+        "ru": "Мелко нарезанные помидоры, огурцы, лук, белокочанная и красная капуста; тахини отдельно.",
+        "en": "Chopped tomato, cucumber, onion, white and red cabbage with tahini on the side."
+      },
+      "priceILS": 72,
+      "priceDisplay": "72",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "salads-halloumi-salad",
+      "categoryId": "salads",
+      "name": {
+        "he": "סלט חלומי",
+        "ru": "Салат с халуми",
+        "en": "Halloumi Salad"
+      },
+      "description": {
+        "he": "גבינת חלומי, פטריות מוקפצות בטריאקי, חסה, שרי, מלפפון, פלפלים קלויים ועגבניות מיובשות",
+        "ru": "Халуми, грибы в терияки, листья салата, черри, огурец, печёный перец и вяленые томаты.",
+        "en": "Halloumi, teriyaki mushrooms, lettuce, cherry tomatoes, cucumber, roasted peppers and sun-dried tomatoes."
+      },
+      "priceILS": 80,
+      "priceDisplay": "80",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "salads-georgian-salad",
+      "categoryId": "salads",
+      "name": {
+        "he": "סלט גיאורגי",
+        "ru": "Грузинский салат",
+        "en": "Georgian Salad"
+      },
+      "description": {
+        "he": "עגבנייה, מלפפון ובצל חתוכים גס, עם חומץ, מלח, פטרוזיליה ופלפל ירוק חריף",
+        "ru": "Крупно нарезанные помидоры, огурцы и лук с уксусом, петрушкой и острым зелёным перцем.",
+        "en": "Chunky-cut tomatoes, cucumbers and onions with vinegar, parsley and hot green pepper."
+      },
+      "priceILS": 64,
+      "priceDisplay": "64",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "salads-greek-salad",
+      "categoryId": "salads",
+      "name": {
+        "he": "סלט יווני",
+        "ru": "Греческий салат",
+        "en": "Greek Salad"
+      },
+      "description": {
+        "he": "גבינה בולגרית מגורדת, מלפפון, עגבנייה, גמבה, בצל סגול, אורגנו וזיתי קלמטה",
+        "ru": "Болгарский белый сыр, огурцы, помидоры, сладкий перец, красный лук, орегано и оливки каламата.",
+        "en": "Bulgarian-style white cheese, cucumber, tomato, bell pepper, red onion, oregano and Kalamata olives."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "salads-endive-roquefort-salad",
+      "categoryId": "salads",
+      "name": {
+        "he": "סלט אנדיב",
+        "ru": "Салат с эндивием и рокфором",
+        "en": "Endive & Roquefort Salad"
+      },
+      "description": {
+        "he": "חסה, אנדיב, ויניגרט הדרים, פקאן גרוס, גבינת רוקפור וגרעיני רימון",
+        "ru": "Листья салата, эндивий, цитрусовый винегрет, дроблёный пекан, рокфор и зёрна граната.",
+        "en": "Lettuce, endive, citrus vinaigrette, crushed pecans, Roquefort and pomegranate seeds."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": true,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "soups-kharcho-soup",
+      "categoryId": "soups",
+      "name": {
+        "he": "מרק חרצ'ו",
+        "ru": "Харчо",
+        "en": "Kharcho Soup"
+      },
+      "description": {
+        "he": "מרק בקר עם קוביות אסאדו, עגבניות, אורז ותבלינים גיאורגיים פיקנטיים",
+        "ru": "Грузинский суп с говядиной асадо, томатами, рисом и пикантными специями.",
+        "en": "Georgian beef soup with asado beef, tomatoes, rice and aromatic spices."
+      },
+      "priceILS": 64,
+      "priceDisplay": "64",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "soups-borscht",
+      "categoryId": "soups",
+      "name": {
+        "he": "מרק בורשט",
+        "ru": "Борщ",
+        "en": "Borscht"
+      },
+      "description": {
+        "he": "מרק עם סלק, כרוב, ירקות שורש ובשר בקר",
+        "ru": "Свёкла, капуста, корнеплоды и говядина.",
+        "en": "Beetroot soup with cabbage, root vegetables and beef."
+      },
+      "priceILS": 66,
+      "priceDisplay": "66",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "soups-creamy-mushroom-soup-in-bread",
+      "categoryId": "soups",
+      "name": {
+        "he": "מרק פטריות חלבי",
+        "ru": "Сливочно-грибной суп в хлебе",
+        "en": "Creamy Mushroom Soup in Bread"
+      },
+      "description": {
+        "he": "מוגש בלחם אפוי עם גבינת פרמז'ן מעל",
+        "ru": "Подаётся в запечённой хлебной чаше с пармезаном.",
+        "en": "Served in a baked bread bowl topped with Parmesan."
+      },
+      "priceILS": 68,
+      "priceDisplay": "68",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "soups-mixed-seafood-soup",
+      "categoryId": "soups",
+      "name": {
+        "he": "מרק מיקס פירות ים",
+        "ru": "Суп с морепродуктами",
+        "en": "Mixed Seafood Soup"
+      },
+      "description": {
+        "he": "מרק על בסיס ציר דגים עם שרימפס, קלמרי ומולים",
+        "ru": "На рыбном бульоне с креветками, кальмарами и мидиями.",
+        "en": "Fish-stock soup with shrimp, calamari and mussels."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "soups-french-onion-soup",
+      "categoryId": "soups",
+      "name": {
+        "he": "מרק בצל",
+        "ru": "Французский луковый суп",
+        "en": "French Onion Soup"
+      },
+      "description": {
+        "he": "מרק בצל צרפתי קלאסי בקערת לחם כפרי עם פירורי פרמזן",
+        "ru": "Классический французский луковый суп в хлебной чаше с пармезаном.",
+        "en": "Classic French onion soup in a rustic bread bowl with Parmesan."
+      },
+      "priceILS": 58,
+      "priceDisplay": "58",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "soups-lobio-bean-soup",
+      "categoryId": "soups",
+      "name": {
+        "he": "מרק לוביו",
+        "ru": "Суп лобио",
+        "en": "Lobio Bean Soup"
+      },
+      "description": {
+        "he": "מרק שעועית אדומה גיאורגי פיקנטי-חמצמץ, מוגש עם לחם וצנונית",
+        "ru": "Пикантный кисловатый грузинский суп из красной фасоли, с хлебом и редисом.",
+        "en": "Tangy, spicy Georgian red-bean soup served with bread and radish."
+      },
+      "priceILS": 66,
+      "priceDisplay": "66",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "soups-fish-soup",
+      "categoryId": "soups",
+      "name": {
+        "he": "מרק דגים",
+        "ru": "Рыбный суп",
+        "en": "Fish Soup"
+      },
+      "description": {
+        "he": "מרק על בסיס ציר ירקות עם דג דניס וסלמון",
+        "ru": "Овощной бульон с дорадой и лососем.",
+        "en": "Vegetable-stock soup with sea bream and salmon."
+      },
+      "priceILS": 68,
+      "priceDisplay": "68",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "soups-tom-yum-soup",
+      "categoryId": "soups",
+      "name": {
+        "he": "מרק טום יאם",
+        "ru": "Том-ям",
+        "en": "Tom Yum Soup"
+      },
+      "description": {
+        "he": null,
+        "ru": null,
+        "en": null
+      },
+      "priceILS": 76,
+      "priceDisplay": "76",
+      "isNewOnSource": true,
+      "image": null,
+      "review": [
+        "description-not-provided-on-source"
+      ]
+    },
+    {
+      "id": "georgian-georgian-chicken-liver-solyanka",
+      "categoryId": "georgian",
+      "name": {
+        "he": "סליאנקה כבדים",
+        "ru": "Солянка из куриной печени",
+        "en": "Georgian Chicken Liver Solyanka"
+      },
+      "description": {
+        "he": "תבשיל גיאורגי מסורתי של כבדי עוף ברוטב גיאורגי פיקנטי עם בצל, מוגש על פירה",
+        "ru": "Традиционное грузинское рагу из куриной печени с луком в пикантном соусе, на картофельном пюре.",
+        "en": "Traditional Georgian chicken-liver stew in a spicy sauce with onions, served over mashed potatoes."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-khortsiani-beef-pastry",
+      "categoryId": "georgian",
+      "name": {
+        "he": "חורציאני",
+        "ru": "Хорциани с говядиной",
+        "en": "Khortsiani Beef Pastry"
+      },
+      "description": {
+        "he": "מאפה בצק עלים במילוי בשר בקר פיקנטי, מוגש עם מז'אווה",
+        "ru": "Слоёная выпечка с пряной говядиной, подаётся с мжаве.",
+        "en": "Flaky puff pastry filled with spicy beef, served with mzhave."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-lobiani-bean-bread",
+      "categoryId": "georgian",
+      "name": {
+        "he": "לובואני",
+        "ru": "Лобиани",
+        "en": "Lobiani Bean Bread"
+      },
+      "description": {
+        "he": "מאפה בצק עלים עגול במילוי שעועית לבנה פיקנטית הנאפה בתנור אבן",
+        "ru": "Грузинская круглая выпечка с пикантной белой фасолью, приготовленная в каменной печи.",
+        "en": "Round Georgian pastry stuffed with spiced white beans and baked in a stone oven."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-cheese-spinach-dumplings",
+      "categoryId": "georgian",
+      "name": {
+        "he": "כיסונים גבינות ותרד",
+        "ru": "Вареники с сыром и шпинатом",
+        "en": "Cheese & Spinach Dumplings"
+      },
+      "description": {
+        "he": "8 כיסונים ממולאים בגבינות גיאורגיות ותרד, מבושלים במים, עם שמנת חמוצה בשום ועירית",
+        "ru": "Восемь отварных вареников с грузинскими сырами и шпинатом, подаются со сметаной, чесноком и шнитт-луком.",
+        "en": "Eight boiled dumplings with Georgian cheeses and spinach, served with garlic-and-chive sour cream."
+      },
+      "priceILS": 68,
+      "priceDisplay": "68",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-georgian-cheese-dumplings",
+      "categoryId": "georgian",
+      "name": {
+        "he": "כיסונים גבינות",
+        "ru": "Вареники с грузинским сыром",
+        "en": "Georgian Cheese Dumplings"
+      },
+      "description": {
+        "he": "8 כיסונים ממולאים בגבינות גיאורגיות, מבושלים במים, עם שמנת חמוצה בשום ועירית",
+        "ru": "Восемь вареников с грузинскими сырами, подаются с чесночной сметаной и шнитт-луком.",
+        "en": "Eight boiled Georgian cheese dumplings served with garlic-and-chive sour cream."
+      },
+      "priceILS": 64,
+      "priceDisplay": "64",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-beef-khinkali",
+      "categoryId": "georgian",
+      "name": {
+        "he": "חינקלי בשרי",
+        "ru": "Хинкали с говядиной",
+        "en": "Beef Khinkali"
+      },
+      "description": {
+        "he": "5 כיסוני בצק ממולאים בבשר בקר, מבושלים במים, עם רוטב עגבניות מסורתי",
+        "ru": "Пять отварных хинкали с говядиной и традиционным томатным соусом.",
+        "en": "Five boiled Georgian beef dumplings with traditional tomato sauce."
+      },
+      "priceILS": 76,
+      "priceDisplay": "76",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-meat-chebureki",
+      "categoryId": "georgian",
+      "name": {
+        "he": "צ'יבורקי בשרי",
+        "ru": "Чебуреки с мясом",
+        "en": "Meat Chebureki"
+      },
+      "description": {
+        "he": "2 יחידות בצק גרוזיני פריך במילוי בשר עגל טחון פיקנטי ותבלינים גיאורגיים",
+        "ru": "Два хрустящих чебурека с пикантным фаршем из телятины и грузинскими специями.",
+        "en": "Two crispy pastries with spicy ground veal and Georgian spices."
+      },
+      "priceILS": 76,
+      "priceDisplay": "76",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-cheese-chebureki",
+      "categoryId": "georgian",
+      "name": {
+        "he": "צי'בורקי גבינות",
+        "ru": "Чебуреки с сыром",
+        "en": "Cheese Chebureki"
+      },
+      "description": {
+        "he": "2 יחידות בצק גרוזיני פריך במילוי גבינות גיאורגיות, ירק וביצה קשה מגורדת",
+        "ru": "Два хрустящих чебурека с грузинскими сырами, зеленью и тёртым варёным яйцом.",
+        "en": "Two crispy Georgian pastries with cheese, herbs and grated hard-boiled egg."
+      },
+      "priceILS": 68,
+      "priceDisplay": "68",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-chanakhi-beef-stew",
+      "categoryId": "georgian",
+      "name": {
+        "he": "צ'נחי",
+        "ru": "Чанахи",
+        "en": "Chanakhi Beef Stew"
+      },
+      "description": {
+        "he": "תבשיל בקר עם חצילים, תפוח אדמה, עגבנייה, שום, בצל ותבלינים מסורתיים בכלי חרס עם לחם הבית",
+        "ru": "Говядина, баклажаны, картофель, помидоры, чеснок и лук в глиняном горшочке, с домашним хлебом.",
+        "en": "Beef stew with eggplant, potatoes, tomatoes, garlic and onion in a clay pot, served with house bread."
+      },
+      "priceILS": 98,
+      "priceDisplay": "98",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-beef-stroganoff",
+      "categoryId": "georgian",
+      "name": {
+        "he": "ביף סטרוגונוף",
+        "ru": "Бефстроганов",
+        "en": "Beef Stroganoff"
+      },
+      "description": {
+        "he": "פילה בקר ולשון בקר ברוטב שמנת עם בצל ופטריות, מוגש על פירה חלבי",
+        "ru": "Говяжье филе и язык в сливочном соусе с луком и грибами на картофельном пюре.",
+        "en": "Beef fillet and tongue in a creamy mushroom-and-onion sauce over mashed potatoes."
+      },
+      "priceILS": 96,
+      "priceDisplay": "96",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-grape-leaf-dolma",
+      "categoryId": "georgian",
+      "name": {
+        "he": "וואזיס תולמה",
+        "ru": "Долма в виноградных листьях",
+        "en": "Grape-Leaf Dolma"
+      },
+      "description": {
+        "he": "4 עלי גפן במילוי בשר בקר פיקנטי, אורז ותבלינים",
+        "ru": "Четыре виноградных листа с пряной говядиной, рисом и специями.",
+        "en": "Four grape leaves stuffed with spiced beef, rice and herbs."
+      },
+      "priceILS": 82,
+      "priceDisplay": "82",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-osuri-potato-cheese-pastry",
+      "categoryId": "georgian",
+      "name": {
+        "he": "אוסורי",
+        "ru": "Осури",
+        "en": "Osuri Potato & Cheese Pastry"
+      },
+      "description": {
+        "he": "מאפה בצק עלים במילוי תפוח אדמה, פטריות, בצל, גבינות ושאטה גרוס",
+        "ru": "Слоёная выпечка с картофелем, грибами, луком, сыром и острым перцем.",
+        "en": "Flaky pastry with potatoes, mushrooms, onions, cheese and crushed chili."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-adjarian-khachapuri",
+      "categoryId": "georgian",
+      "name": {
+        "he": "חצ'פורי אצ'רולי",
+        "ru": "Хачапури по-аджарски",
+        "en": "Adjarian Khachapuri"
+      },
+      "description": {
+        "he": "בצק שמרים בצורת סירה עם גבינות גיאורגיות וביצת עין, נאפה בתנור אבן, עם חמאה",
+        "ru": "Лодочка из дрожжевого теста с грузинскими сырами, яйцом и сливочным маслом из каменной печи.",
+        "en": "Boat-shaped bread filled with Georgian cheeses and an egg, stone-baked and served with butter."
+      },
+      "priceILS": 64,
+      "priceDisplay": "64",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-nino-khachapuri",
+      "categoryId": "georgian",
+      "name": {
+        "he": "חצ'פורי נינו",
+        "ru": "Хачапури «Нино»",
+        "en": "Nino Khachapuri"
+      },
+      "description": {
+        "he": "בצק שמרים בצורת סירה עם גבינות גיאורגיות ותרד, ביצת עין וחמאה",
+        "ru": "Лодочка с грузинскими сырами и шпинатом, яйцом и сливочным маслом.",
+        "en": "Boat-shaped khachapuri with Georgian cheeses, spinach, an egg and butter."
+      },
+      "priceILS": 74,
+      "priceDisplay": "74",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-imeruli-khachapuri",
+      "categoryId": "georgian",
+      "name": {
+        "he": "אימרולי",
+        "ru": "Имерули хачапури",
+        "en": "Imeruli Khachapuri"
+      },
+      "description": {
+        "he": "מאפה עגול מבצק שמרים במילוי גבינות גיאורגיות, נאפה בתנור אבן",
+        "ru": "Круглый имеретинский хачапури с грузинским сыром, испечённый в каменной печи.",
+        "en": "Round Georgian cheese-filled bread baked in a stone oven."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-megruli-khachapuri",
+      "categoryId": "georgian",
+      "name": {
+        "he": "אימרולי מגראולי",
+        "ru": "Мегрули хачапури",
+        "en": "Megruli Khachapuri"
+      },
+      "description": {
+        "he": "מאפה עגול עם גבינות גיאורגיות בפנים וגבינה מעל, נאפה בתנור אבן",
+        "ru": "Круглый хачапури с грузинским сыром внутри и сверху.",
+        "en": "Round cheese bread filled and topped with Georgian cheese, baked in a stone oven."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-pepperoni-megruli-khachapuri",
+      "categoryId": "georgian",
+      "name": {
+        "he": "אימרולי מגראולי פפרוני",
+        "ru": "Мегрули с пепперони",
+        "en": "Pepperoni Megruli Khachapuri"
+      },
+      "description": {
+        "he": "מאפה עגול עם גבינות גיאורגיות, גבינה ופפרוני מעל, נאפה בתנור אבן",
+        "ru": "Мегрули с сырной начинкой и пепперони под сырной корочкой.",
+        "en": "Round Georgian cheese bread topped with cheese and pepperoni."
+      },
+      "priceILS": 96,
+      "priceDisplay": "96",
+      "isNewOnSource": true,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-puff-pastry-imeruli",
+      "categoryId": "georgian",
+      "name": {
+        "he": "אימרולי עלים",
+        "ru": "Имерули из слоёного теста",
+        "en": "Puff-Pastry Imeruli"
+      },
+      "description": {
+        "he": "מאפה בצק עלים עגול במילוי גבינות גיאורגיות, נאפה בתנור אבן",
+        "ru": "Круглая слоёная выпечка с грузинскими сырами из каменной печи.",
+        "en": "Round puff pastry filled with Georgian cheeses and stone-baked."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-puff-pastry-spinach-imeruli",
+      "categoryId": "georgian",
+      "name": {
+        "he": "אימרולי פטרה עלים",
+        "ru": "Слоёный имерули со шпинатом",
+        "en": "Puff-Pastry Spinach Imeruli"
+      },
+      "description": {
+        "he": "מאפה בצק עלים עגול עם גבינות גיאורגיות ותרד, נאפה בתנור אבן",
+        "ru": "Круглый слоёный имерули с грузинскими сырами и шпинатом.",
+        "en": "Round puff-pastry bread filled with Georgian cheese and spinach."
+      },
+      "priceILS": 88,
+      "priceDisplay": "88",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-spinach-imeruli-khachapuri",
+      "categoryId": "georgian",
+      "name": {
+        "he": "אימרולי פטרה שמרים",
+        "ru": "Имерули со шпинатом",
+        "en": "Spinach Imeruli Khachapuri"
+      },
+      "description": {
+        "he": "מאפה בצק שמרים עגול במילוי גבינות גיאורגיות ותרד, נאפה בתנור אבן",
+        "ru": "Круглый хачапури из дрожжевого теста с сыром и шпинатом.",
+        "en": "Round yeast-dough Georgian bread with cheese and spinach."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-georgian-meat-pies",
+      "categoryId": "georgian",
+      "name": {
+        "he": "פרשקי בשרי",
+        "ru": "Пирожки с мясом",
+        "en": "Georgian Meat Pies"
+      },
+      "description": {
+        "he": "2 מאפים ממולאים בשר בתערובת גיאורגית, צלויים במחבת עם רוטב עגבניות ושזיפים פיקנטי",
+        "ru": "Два грузинских жареных пирожка с мясом, томатным и острым сливовым соусами.",
+        "en": "Two pan-fried Georgian meat pies with tomato and spicy plum sauces."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "georgian-cheese-cheese-spinach-pies",
+      "categoryId": "georgian",
+      "name": {
+        "he": "פרשקי גבינות/גבינות ותרד",
+        "ru": "Пирожки с сыром / сыром и шпинатом",
+        "en": "Cheese / Cheese & Spinach Pies"
+      },
+      "description": {
+        "he": "2 מאפים ממולאים בגבינות גיאורגיות עם או בלי תרד, עם רוטב עגבניות ורוטב שזיפים",
+        "ru": "Два пирожка с грузинскими сырами, со шпинатом или без, подаются с томатным и сливовым соусами.",
+        "en": "Two pies filled with Georgian cheese, with or without spinach, served with tomato and plum sauces."
+      },
+      "priceILS": null,
+      "priceDisplay": "82/76",
+      "isNewOnSource": false,
+      "image": null,
+      "review": [
+        "confirm-price-variants"
+      ]
+    },
+    {
+      "id": "georgian-vegan-potato-pies",
+      "categoryId": "georgian",
+      "name": {
+        "he": "פרשקי תפוח אדמה (טבעוני)",
+        "ru": "Веганские пирожки с картофелем",
+        "en": "Vegan Potato Pies"
+      },
+      "description": {
+        "he": "2 מאפים במילוי תפוח אדמה, פטריות ובצל פיקנטיים עם רוטב עגבניות ושזיפים",
+        "ru": "Два веганских грузинских пирожка с картофелем, грибами и луком, с томатным и сливовым соусами.",
+        "en": "Two vegan Georgian pastries with potato, mushrooms and onions, served with tomato and plum sauces."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-beef-fillet-with-peanut-butter-cream",
+      "categoryId": "meat",
+      "name": {
+        "he": "פילה בקר עם קרם חמאת בוטנים",
+        "ru": "Говяжье филе с арахисовым кремом",
+        "en": "Beef Fillet with Peanut Butter Cream"
+      },
+      "description": {
+        "he": "כ-220 גרם פילה בקר סגור בתנור",
+        "ru": "Около 220 г говяжьего филе, приготовленного в духовке.",
+        "en": "Approximately 220 g of oven-finished beef fillet with peanut-butter cream."
+      },
+      "priceILS": 168,
+      "priceDisplay": "168",
+      "isNewOnSource": true,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-shepherd-s-pie",
+      "categoryId": "meat",
+      "name": {
+        "he": "פאי רועים",
+        "ru": "Пастуший пирог",
+        "en": "Shepherd's Pie"
+      },
+      "description": {
+        "he": "שכבות של בשר קצוץ, פירה תפוחי אדמה וגבינה מוקרמת מעל, עם איולי שיפקה חריף",
+        "ru": "Слои рубленого мяса и картофельного пюре под сырной корочкой, с острым айоли из перца шифка.",
+        "en": "Layers of chopped meat and mashed potatoes with melted cheese and spicy shifka aioli."
+      },
+      "priceILS": 106,
+      "priceDisplay": "106",
+      "isNewOnSource": true,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-entrec-te-skewer",
+      "categoryId": "meat",
+      "name": {
+        "he": "שיפוד אנטריקוט",
+        "ru": "Шашлык из антрекота",
+        "en": "Entrecôte Skewer"
+      },
+      "description": {
+        "he": "כ-300 גרם אנטריקוט לפני צלייה מבשר פרה מיושן מרמת הגולן",
+        "ru": "Около 300 г выдержанного антрекота до приготовления, мясо из района Голанских высот.",
+        "en": "Approximately 300 g of aged Golan Heights beef entrecôte, weighed before cooking."
+      },
+      "priceILS": 156,
+      "priceDisplay": "156",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-meat-platter",
+      "categoryId": "meat",
+      "name": {
+        "he": "פלטת בשרים",
+        "ru": "Мясное ассорти",
+        "en": "Meat Platter"
+      },
+      "description": {
+        "he": "יש לשאול את הנציג במסעדה לפרטים",
+        "ru": "Состав уточняйте у персонала ресторана.",
+        "en": "Please ask the restaurant staff for the current selection."
+      },
+      "priceILS": 390,
+      "priceDisplay": "390",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-lamb-chops",
+      "categoryId": "meat",
+      "name": {
+        "he": "צלעות כבש",
+        "ru": "Бараньи рёбрышки",
+        "en": "Lamb Chops"
+      },
+      "description": {
+        "he": "כ-400 גרם צלעות כבש מתובל מלח ופלפל",
+        "ru": "Около 400 г бараньих рёбрышек с солью и перцем.",
+        "en": "Approximately 400 g of lamb chops seasoned with salt and pepper."
+      },
+      "priceILS": 168,
+      "priceDisplay": "168",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-petra-sausages",
+      "categoryId": "meat",
+      "name": {
+        "he": "נקניקיות פטרה",
+        "ru": "Колбаски Petra",
+        "en": "Petra Sausages"
+      },
+      "description": {
+        "he": "2 נקניקיות מרגז ו-2 נקניקיות אנגוס על פירה או צ'יפס",
+        "ru": "Две колбаски мергез и две говяжьи колбаски ангус на пюре или картофеле фри.",
+        "en": "Two merguez and two Angus beef sausages served over mash or fries."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-asado-with-home-fries",
+      "categoryId": "meat",
+      "name": {
+        "he": "אסאדו",
+        "ru": "Асадо с картофелем",
+        "en": "Asado with Home Fries"
+      },
+      "description": {
+        "he": "נתחי אסאדו עם עצם בליווי הום פרייז",
+        "ru": "Говяжьи рёбрышки асадо на кости с жареным картофелем.",
+        "en": "Bone-in asado beef cuts served with home fries."
+      },
+      "priceILS": 118,
+      "priceDisplay": "118",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-slow-cooked-asado-brioche",
+      "categoryId": "meat",
+      "name": {
+        "he": "בריוש אסאדו",
+        "ru": "Бриошь с томлёным асадо",
+        "en": "Slow-Cooked Asado Brioche"
+      },
+      "description": {
+        "he": "נתח קשתית מפורק אחרי בישול ארוך על לחם בריוש עם איולי שיפקה וסלט כוסברה",
+        "ru": "Долго томлёная рваная говядина на домашней бриоши с острым айоли и салатом из кинзы.",
+        "en": "Slow-cooked shredded beef on house brioche with spicy pepper aioli and cilantro salad."
+      },
+      "priceILS": 106,
+      "priceDisplay": "106",
+      "isNewOnSource": true,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-angus-beef-kebab",
+      "categoryId": "meat",
+      "name": {
+        "he": "קבב",
+        "ru": "Кебаб из говядины",
+        "en": "Angus Beef Kebab"
+      },
+      "description": {
+        "he": "מדליוני קבב בקר אנגוס על לאפה עם טחינה ירוקה",
+        "ru": "Медальоны из говяжьего кебаба ангус на лафе с зелёной тахини.",
+        "en": "Angus beef kebab medallions served on laffa bread with green tahini."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-aged-beef-entrec-te",
+      "categoryId": "meat",
+      "name": {
+        "he": "אנטריקוט פרה",
+        "ru": "Выдержанный антрекот",
+        "en": "Aged Beef Entrecôte"
+      },
+      "description": {
+        "he": "כ-400 גרם אנטריקוט מבשר פרה מקומית מיושן ביישון יבש ורטוב",
+        "ru": "Около 400 г антрекота из местной выдержанной говядины, сухая и влажная выдержка.",
+        "en": "Approximately 400 g of locally sourced dry- and wet-aged beef entrecôte."
+      },
+      "priceILS": 270,
+      "priceDisplay": "270",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-entrec-te-with-foie-gras",
+      "categoryId": "meat",
+      "name": {
+        "he": "אנטריקוט פרה כבד אווז",
+        "ru": "Антрекот с фуа-гра",
+        "en": "Entrecôte with Foie Gras"
+      },
+      "description": {
+        "he": "כ-400 גרם אנטריקוט מיושן עם כ-130 גרם כבד אווז",
+        "ru": "Около 400 г выдержанного антрекота с 130 г фуа-гра.",
+        "en": "Approximately 400 g of aged entrecôte with 130 g of foie gras."
+      },
+      "priceILS": 370,
+      "priceDisplay": "370",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-chicken-souvlaki",
+      "categoryId": "meat",
+      "name": {
+        "he": "סופלאקי פרגיות",
+        "ru": "Сувлаки из курицы",
+        "en": "Chicken Souvlaki"
+      },
+      "description": {
+        "he": "פרגיות בסגנון ים תיכוני על לאפה עם טחינה ירוקה, בצל, סומק ועגבנייה על האש",
+        "ru": "Куриное бедро по-средиземноморски на лафе с зелёной тахини, луком, сумахом и томатами гриль.",
+        "en": "Mediterranean chicken thighs on laffa with green tahini, onion, sumac and grilled tomato."
+      },
+      "priceILS": 82,
+      "priceDisplay": "82",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "meat-chicken-schnitzel-nuggets",
+      "categoryId": "meat",
+      "name": {
+        "he": "שניצל נאגטס",
+        "ru": "Куриные наггетсы",
+        "en": "Chicken Schnitzel Nuggets"
+      },
+      "description": {
+        "he": "4 יחידות שניצל עוף בציפוי פריך עם תוספת חמה וסלט ירקות אישי",
+        "ru": "Четыре хрустящих куриных наггетса с горячим гарниром и овощным салатом.",
+        "en": "Four crispy chicken schnitzel bites with a hot side and small vegetable salad."
+      },
+      "priceILS": 68,
+      "priceDisplay": "68",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "burgers-classic-burger",
+      "categoryId": "burgers",
+      "name": {
+        "he": "המבורגר",
+        "ru": "Классический бургер",
+        "en": "Classic Burger"
+      },
+      "description": {
+        "he": "250 גרם בקר לפני צלייה, טחון במקום, בלחמנייה עם חסה, עגבנייה, מלפפון חמוץ ובצל, עם תוספת חמה",
+        "ru": "Котлета из 250 г свежемолотой говядины, булочка, салат, томаты, маринованный огурец, лук и горячий гарнир.",
+        "en": "250 g freshly ground beef patty in a bun with lettuce, tomato, pickles, onion and a hot side."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "burgers-cheeseburger",
+      "categoryId": "burgers",
+      "name": {
+        "he": "המבורגר צ'יז",
+        "ru": "Чизбургер",
+        "en": "Cheeseburger"
+      },
+      "description": {
+        "he": "250 גרם בקר, גבינת צ'דר, חסה, עגבנייה, מלפפון חמוץ ובצל, עם תוספת חמה",
+        "ru": "Говяжья котлета 250 г с чеддером, салатом, томатами, солёным огурцом, луком и гарниром.",
+        "en": "250 g beef burger with Cheddar, lettuce, tomato, pickles, onion and a hot side."
+      },
+      "priceILS": 88,
+      "priceDisplay": "88",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "burgers-foie-gras-burger",
+      "categoryId": "burgers",
+      "name": {
+        "he": "בורגר כבד אווז",
+        "ru": "Бургер с фуа-гра",
+        "en": "Foie Gras Burger"
+      },
+      "description": {
+        "he": "250 גרם בקר עם מדליון כבד אווז, בלחמנייה עם חסה, עגבנייה, מלפפון חמוץ ובצל, עם תוספת חמה",
+        "ru": "Бургер из 250 г говядины с медальоном фуа-гра, овощами и горячим гарниром.",
+        "en": "250 g beef burger with a foie gras medallion, vegetables and a hot side."
+      },
+      "priceILS": 136,
+      "priceDisplay": "136",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "burgers-asado-burger",
+      "categoryId": "burgers",
+      "name": {
+        "he": "בורגר אסאדו",
+        "ru": "Бургер с асадо",
+        "en": "Asado Burger"
+      },
+      "description": {
+        "he": "250 גרם בקר עם רצועות אסאדו מפורקות ברוטב ברביקיו וצ'ילי, ירקות ותוספת חמה",
+        "ru": "Говяжий бургер 250 г с томлёным асадо, соусами барбекю и чили, овощами и гарниром.",
+        "en": "250 g beef burger topped with pulled asado in BBQ and chili sauce, with vegetables and a side."
+      },
+      "priceILS": 108,
+      "priceDisplay": "108",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "burgers-petra-signature-burger",
+      "categoryId": "burgers",
+      "name": {
+        "he": "בורגר פטרה",
+        "ru": "Фирменный бургер Petra",
+        "en": "Petra Signature Burger"
+      },
+      "description": {
+        "he": "250 גרם בקר עם מוצרלה מטוגנת וטבעות בצל פריכות, ירקות ותוספת חמה",
+        "ru": "Котлета из 250 г говядины с жареной моцареллой, хрустящими луковыми кольцами, овощами и гарниром.",
+        "en": "250 g beef patty with fried mozzarella, crispy onion rings, vegetables and a hot side."
+      },
+      "priceILS": 116,
+      "priceDisplay": "116",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "burgers-fish-burger",
+      "categoryId": "burgers",
+      "name": {
+        "he": "בורגר דג",
+        "ru": "Рыбный бургер",
+        "en": "Fish Burger"
+      },
+      "description": {
+        "he": "כ-220 גרם קציצת דג עשויה במקום עם תבלינים, ירקות ותוספת חמה",
+        "ru": "Рыбная котлета около 220 г домашнего приготовления со специями, овощами и горячим гарниром.",
+        "en": "Approximately 220 g house-made fish patty with spices, vegetables and a hot side."
+      },
+      "priceILS": 92,
+      "priceDisplay": "92",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-seafood-paella",
+      "categoryId": "seafood",
+      "name": {
+        "he": "פאייה",
+        "ru": "Паэлья с морепродуктами",
+        "en": "Seafood Paella"
+      },
+      "description": {
+        "he": "שרימפס, קלמרי ומולים עם ירקות שורש ואורז בסגנון ספרדי חריף",
+        "ru": "Креветки, кальмары и мидии с корнеплодами и рисом в пикантном испанском стиле.",
+        "en": "Shrimp, calamari and mussels with root vegetables and rice, Spanish-style with a spicy kick."
+      },
+      "priceILS": 188,
+      "priceDisplay": "188",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-mixed-seafood-in-garlic-wine-cream-sauce",
+      "categoryId": "seafood",
+      "name": {
+        "he": "קוקטייל מיקס פירות ים בשום, חמאה ויין / בשמנת",
+        "ru": "Морской коктейль с чесноком и вином / в сливках",
+        "en": "Mixed Seafood in Garlic-Wine / Cream Sauce"
+      },
+      "description": {
+        "he": "מולים, קלמרי ושרימפס מוקפצים ברוטב שום, חמאה ויין או ברוטב שמנת",
+        "ru": "Мидии, кальмары и креветки, обжаренные в чесночно-винном соусе с маслом либо в сливочном.",
+        "en": "Mussels, calamari and shrimp sautéed in garlic-butter-wine sauce or in cream sauce."
+      },
+      "priceILS": null,
+      "priceDisplay": "184/179",
+      "isNewOnSource": false,
+      "image": null,
+      "review": [
+        "confirm-price-variants"
+      ]
+    },
+    {
+      "id": "seafood-fried-mixed-seafood",
+      "categoryId": "seafood",
+      "name": {
+        "he": "קוקטייל מיקס פירות ים מטוגן",
+        "ru": "Ассорти жареных морепродуктов",
+        "en": "Fried Mixed Seafood"
+      },
+      "description": {
+        "he": "כ-400 גרם שרימפס, קלמרי ומולים בציפוי קמח, מתובלים ומטוגנים, עם מטבלי הבית",
+        "ru": "Около 400 г креветок, кальмаров и мидий в хрустящей панировке с домашними соусами.",
+        "en": "Approximately 400 g of battered shrimp, calamari and mussels with house dipping sauces."
+      },
+      "priceILS": 148,
+      "priceDisplay": "148",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-seafood-khachapuri",
+      "categoryId": "seafood",
+      "name": {
+        "he": "חצ'פורי ים",
+        "ru": "Хачапури с морепродуктами",
+        "en": "Seafood Khachapuri"
+      },
+      "description": {
+        "he": "מאפה בצורת סירה עם גבינות גיאורגיות, שרימפס, קלמרי ורוטב שמנת, נאפה בתנור אבן",
+        "ru": "Хачапури-лодочка с грузинскими сырами, креветками, кальмарами и сливочным соусом.",
+        "en": "Boat-shaped Georgian cheese bread with shrimp, calamari and cream sauce, stone-baked."
+      },
+      "priceILS": 98,
+      "priceDisplay": "98",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-halloumi-stuffed-calamari",
+      "categoryId": "seafood",
+      "name": {
+        "he": "קלמרי חלומי",
+        "ru": "Кальмары с халуми",
+        "en": "Halloumi-Stuffed Calamari"
+      },
+      "description": {
+        "he": "6 יחידות קלמרי מטוגן במילוי גבינת חלומי ובליווי מטבלים",
+        "ru": "Шесть жареных кальмаров с начинкой из халуми и соусами.",
+        "en": "Six pieces of fried calamari stuffed with halloumi, served with dipping sauces."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-shrimp-pappardelle",
+      "categoryId": "seafood",
+      "name": {
+        "he": "פפרדלה שרימפס",
+        "ru": "Паппарделле с креветками",
+        "en": "Shrimp Pappardelle"
+      },
+      "description": {
+        "he": "פפרדלה ברוטב שמנת פטריות עם כ-130 גרם שרימפס",
+        "ru": "Паппарделле с грибами в сливочном соусе и примерно 130 г креветок.",
+        "en": "Pappardelle in creamy mushroom sauce with approximately 130 g of shrimp."
+      },
+      "priceILS": 98,
+      "priceDisplay": "98",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-fried-calamari",
+      "categoryId": "seafood",
+      "name": {
+        "he": "קלמרי מטוגן",
+        "ru": "Жареные кальмары",
+        "en": "Fried Calamari"
+      },
+      "description": {
+        "he": "כ-300 גרם קלמרי מטוגן, בליווי מטבלים",
+        "ru": "Около 300 г жареных кальмаров с соусами.",
+        "en": "Approximately 300 g of fried calamari with dipping sauces."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-seafood-dumplings",
+      "categoryId": "seafood",
+      "name": {
+        "he": "כיסוני ים",
+        "ru": "Пельмени с морепродуктами",
+        "en": "Seafood Dumplings"
+      },
+      "description": {
+        "he": "7 יחידות כיסונים ברוטב שום ויין",
+        "ru": "Семь пельменей с морепродуктами в соусе из чеснока и вина.",
+        "en": "Seven seafood dumplings in garlic-and-wine sauce."
+      },
+      "priceILS": 82,
+      "priceDisplay": "82",
+      "isNewOnSource": true,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-shrimp-in-garlic-butter-wine",
+      "categoryId": "seafood",
+      "name": {
+        "he": "שרימפס בשום, חמאה ויין",
+        "ru": "Креветки с чесноком, маслом и вином",
+        "en": "Shrimp in Garlic, Butter & Wine"
+      },
+      "description": {
+        "he": "כ-300 גרם שרימפס עם ירק מעל, מוגש עם לחם",
+        "ru": "Около 300 г креветок с зеленью, подаются с хлебом.",
+        "en": "Approximately 300 g of shrimp with herbs and bread."
+      },
+      "priceILS": 92,
+      "priceDisplay": "92",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-creamy-garlic-mushroom-shrimp",
+      "categoryId": "seafood",
+      "name": {
+        "he": "שרימפס בשמנת, שום ופטריות",
+        "ru": "Креветки с грибами в сливочном соусе",
+        "en": "Creamy Garlic & Mushroom Shrimp"
+      },
+      "description": {
+        "he": "כ-300 גרם שרימפס בשמנת עם שום ופטריות, עם לחם",
+        "ru": "Около 300 г креветок с чесноком и грибами в сливках, с хлебом.",
+        "en": "Approximately 300 g of shrimp in garlic-mushroom cream sauce, served with bread."
+      },
+      "priceILS": 98,
+      "priceDisplay": "98",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-creamy-garlic-shrimp",
+      "categoryId": "seafood",
+      "name": {
+        "he": "שרימפס בשמנת ושום",
+        "ru": "Креветки в сливочно-чесночном соусе",
+        "en": "Creamy Garlic Shrimp"
+      },
+      "description": {
+        "he": "כ-300 גרם שרימפס במחבת לוהטת עם לחם",
+        "ru": "Около 300 г креветок в сливочно-чесночном соусе на горячей сковороде, с хлебом.",
+        "en": "Approximately 300 g of shrimp in garlic cream sauce on a sizzling pan with bread."
+      },
+      "priceILS": 94,
+      "priceDisplay": "94",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-creamy-shrimp-with-salmon",
+      "categoryId": "seafood",
+      "name": {
+        "he": "שרימפס בשמנת, שום וסלמון",
+        "ru": "Креветки со сливками, чесноком и лососем",
+        "en": "Creamy Shrimp with Salmon"
+      },
+      "description": {
+        "he": "כ-300 גרם שרימפס בשמנת, שום וסלמון, בליווי לחם",
+        "ru": "Около 300 г креветок со сливками, чесноком и лососем, с хлебом.",
+        "en": "Approximately 300 g of shrimp with cream, garlic and salmon, served with bread."
+      },
+      "priceILS": 98,
+      "priceDisplay": "98",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-fried-shrimp",
+      "categoryId": "seafood",
+      "name": {
+        "he": "שרימפס מטוגן",
+        "ru": "Жареные креветки",
+        "en": "Fried Shrimp"
+      },
+      "description": {
+        "he": "כ-300 גרם שרימפס מטוגן עם מטבלים",
+        "ru": "Около 300 г жареных креветок с соусами.",
+        "en": "Approximately 300 g of fried shrimp served with dipping sauces."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "seafood-shrimp-with-foie-gras",
+      "categoryId": "seafood",
+      "name": {
+        "he": "שרימפס וכבד אווז",
+        "ru": "Креветки с фуа-гра",
+        "en": "Shrimp with Foie Gras"
+      },
+      "description": {
+        "he": "כ-300 גרם שרימפס בשום ויין / בשמנת עם כבד אווז",
+        "ru": "Около 300 г креветок с фуа-гра в соусе из чеснока и вина либо в сливках.",
+        "en": "Approximately 300 g of shrimp with foie gras, prepared in garlic-wine or cream sauce."
+      },
+      "priceILS": null,
+      "priceDisplay": "118/114",
+      "isNewOnSource": false,
+      "image": null,
+      "review": [
+        "confirm-price-variants"
+      ]
+    },
+    {
+      "id": "fish-fried-sea-bass-sea-bream",
+      "categoryId": "fish",
+      "name": {
+        "he": "לברק/דניס מטוגן",
+        "ru": "Жареный сибас / дорада",
+        "en": "Fried Sea Bass / Sea Bream"
+      },
+      "description": {
+        "he": "דג שלם מטוגן, עם איולי שיפקה, סלט אישי ותוספת חמה",
+        "ru": "Целая жареная рыба с острым айоли, небольшим салатом и горячим гарниром.",
+        "en": "Whole fried fish with shifka-pepper aioli, small salad and hot side."
+      },
+      "priceILS": 126,
+      "priceDisplay": "126",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "fish-grilled-salmon-fillet",
+      "categoryId": "fish",
+      "name": {
+        "he": "פילה סלמון בגריל",
+        "ru": "Филе лосося на гриле",
+        "en": "Grilled Salmon Fillet"
+      },
+      "description": {
+        "he": "פילה סלמון בגריל",
+        "ru": "Филе лосося на гриле.",
+        "en": "Grilled salmon fillet."
+      },
+      "priceILS": 112,
+      "priceDisplay": "112",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "fish-whole-oven-baked-sea-bass",
+      "categoryId": "fish",
+      "name": {
+        "he": "לברק שלם בתנור",
+        "ru": "Сибас целиком в духовке",
+        "en": "Whole Oven-Baked Sea Bass"
+      },
+      "description": {
+        "he": "לברק שלם בתנור",
+        "ru": "Сибас, запечённый целиком.",
+        "en": "Whole oven-baked sea bass."
+      },
+      "priceILS": 126,
+      "priceDisplay": "126",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "fish-fish-schnitzel",
+      "categoryId": "fish",
+      "name": {
+        "he": "שניצל דג",
+        "ru": "Рыбный шницель",
+        "en": "Fish Schnitzel"
+      },
+      "description": {
+        "he": "2 פילטים דג ללא עור מצופים ומטוגנים, עם סלט ירוק ותוספת חמה",
+        "ru": "Два филе рыбы без кожи в панировке, с зелёным салатом и гарниром.",
+        "en": "Two breaded skinless fish fillets with a green salad and hot side."
+      },
+      "priceILS": 108,
+      "priceDisplay": "108",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "fish-sea-bass-fillet-skewers",
+      "categoryId": "fish",
+      "name": {
+        "he": "שיפודי פילה לברק",
+        "ru": "Шашлычки из филе сибаса",
+        "en": "Sea Bass Fillet Skewers"
+      },
+      "description": {
+        "he": "על ריזוטו פטריות, עם בצל מוחמץ",
+        "ru": "На грибном ризотто с маринованным луком.",
+        "en": "Served over mushroom risotto with pickled onion."
+      },
+      "priceILS": 102,
+      "priceDisplay": "102",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "fish-whole-oven-baked-sea-bream",
+      "categoryId": "fish",
+      "name": {
+        "he": "דניס שלם בתנור",
+        "ru": "Дорада целиком в духовке",
+        "en": "Whole Oven-Baked Sea Bream"
+      },
+      "description": {
+        "he": "דניס שלם בתנור",
+        "ru": "Дорада, запечённая целиком.",
+        "en": "Whole oven-baked sea bream."
+      },
+      "priceILS": 118,
+      "priceDisplay": "118",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "breakfast-poached-eggs-on-avocado",
+      "categoryId": "breakfast",
+      "name": {
+        "he": "עלומה על אבוקדו",
+        "ru": "Яйца пашот с авокадо",
+        "en": "Poached Eggs on Avocado"
+      },
+      "description": {
+        "he": "לחם בריוש, רוטב הולנדייז, סלמון מעושן",
+        "ru": "На бриоши с голландским соусом и копчёным лососем.",
+        "en": "Served on brioche with hollandaise sauce and smoked salmon."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "breakfast-classic-spicy-shakshuka",
+      "categoryId": "breakfast",
+      "name": {
+        "he": "שקשוקה רגילה/חריפה אש",
+        "ru": "Шакшука классическая / острая",
+        "en": "Classic / Spicy Shakshuka"
+      },
+      "description": {
+        "he": "בליווי סלט קצוץ, טחינה, זיתים, סחוג ולחם",
+        "ru": "С рубленым салатом, тахини, оливками, схугом и хлебом.",
+        "en": "With chopped salad, tahini, olives, schug and bread."
+      },
+      "priceILS": 72,
+      "priceDisplay": "72",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "breakfast-balkan-shakshuka",
+      "categoryId": "breakfast",
+      "name": {
+        "he": "שקשוקה בלקנית",
+        "ru": "Балканская шакшука",
+        "en": "Balkan Shakshuka"
+      },
+      "description": {
+        "he": "ביצים, רוטב שקשוקה, חציל, זיתי קלמטה, גבינה בולגרית, סלט, טחינה, סחוג ולחם",
+        "ru": "Яйца в томатном соусе с баклажанами, оливками каламата и белым сыром, с салатом и хлебом.",
+        "en": "Eggs in shakshuka sauce with eggplant, Kalamata olives and white cheese, served with salad and bread."
+      },
+      "priceILS": 78,
+      "priceDisplay": "78",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "breakfast-syrniki",
+      "categoryId": "breakfast",
+      "name": {
+        "he": "סרניקי",
+        "ru": "Сырники",
+        "en": "Syrniki"
+      },
+      "description": {
+        "he": "3 לביבות גבינה רכות ומתקתקות עם שמנת חמוצה ופירות יער",
+        "ru": "Три нежных сладковатых сырника со сметаной и ягодами.",
+        "en": "Three soft, lightly sweet cheese pancakes with sour cream and berries."
+      },
+      "priceILS": 64,
+      "priceDisplay": "64",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "breakfast-sabich-breakfast",
+      "categoryId": "breakfast",
+      "name": {
+        "he": "בוקר סביח",
+        "ru": "Завтрак «Сабих»",
+        "en": "Sabich Breakfast"
+      },
+      "description": {
+        "he": "חצ'פורי אצ'רולי עם ביצה קשה, חציל מטוגן, אריסה, טחינה, מלפפון חמוץ, זיתים, שתייה קרה וחמה",
+        "ru": "Аджарский хачапури с варёным яйцом, жареным баклажаном, хариссой, тахини, соленьями и напитками.",
+        "en": "Adjarian khachapuri with boiled egg, fried eggplant, harissa, tahini, pickles, olives and drinks."
+      },
+      "priceILS": 84,
+      "priceDisplay": "84",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "breakfast-savory-meat-breakfast",
+      "categoryId": "breakfast",
+      "name": {
+        "he": "בוקר בשרי",
+        "ru": "Мясной завтрак",
+        "en": "Savory Meat Breakfast"
+      },
+      "description": {
+        "he": "פפרוני, הולנדייז, מקושקשת על בריוש לצד נקניקיית אנגוס וחרדל",
+        "ru": "Пепперони, омлет-болтунья и голландский соус на бриоши, с колбаской ангус и горчицей.",
+        "en": "Pepperoni, scrambled eggs and hollandaise on brioche with an Angus sausage and mustard."
+      },
+      "priceILS": 86,
+      "priceDisplay": "86",
+      "isNewOnSource": true,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "breakfast-georgian-walnut-frittata",
+      "categoryId": "breakfast",
+      "name": {
+        "he": "פריטטה אגוזים [ניגזוויאני]",
+        "ru": "Грузинская фриттата с орехами",
+        "en": "Georgian Walnut Frittata"
+      },
+      "description": {
+        "he": "פשטידת ירק, שום ואגוזים בתנור אבן, עם סלט ירוק, מז'אווה ולחם",
+        "ru": "Запечённая в каменной печи овощная фриттата с чесноком и орехами, зелёным салатом и хлебом.",
+        "en": "Stone-baked vegetable, garlic and walnut frittata served with green salad, mzhave and bread."
+      },
+      "priceILS": 76,
+      "priceDisplay": "76",
+      "isNewOnSource": true,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "breakfast-georgian-breakfast",
+      "categoryId": "breakfast",
+      "name": {
+        "he": "בוקר גיאורגי",
+        "ru": "Грузинский завтрак",
+        "en": "Georgian Breakfast"
+      },
+      "description": {
+        "he": "אימרולי אישי עם ביצת עין, סלט גיאורגי, גבינת שמנת, איקרה לבנה, סלמון וזיתים",
+        "ru": "Мини-имерули с глазуньей, грузинским салатом, сливочным сыром, икрой, лососем и оливками.",
+        "en": "Individual Imeruli with a fried egg, Georgian salad, cream cheese, roe spread, salmon and olives."
+      },
+      "priceILS": 88,
+      "priceDisplay": "88",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "breakfast-hilton-breakfast",
+      "categoryId": "breakfast",
+      "name": {
+        "he": "בוקר הילטון",
+        "ru": "Завтрак Hilton",
+        "en": "Hilton Breakfast"
+      },
+      "description": {
+        "he": "חביתה לבחירה, סלט קצוץ, גבינת שמנת, סלט טונה, איקרה, גואקמולה, פירות, טחינה, ריבה, דג מעושן, סלט ביצים, מטבוחה, לחם ושתייה",
+        "ru": "Яйца на выбор, овощи, сыры, салат с тунцом, икра, гуакамоле, фрукты, тахини, джем, копчёная рыба, салаты, хлеб и напитки.",
+        "en": "Choice of eggs with chopped salad, cheeses, tuna salad, roe, guacamole, fruit, tahini, preserves, smoked fish, bread and drinks."
+      },
+      "priceILS": null,
+      "priceDisplay": "86/142",
+      "isNewOnSource": false,
+      "image": null,
+      "review": [
+        "confirm-price-variants"
+      ]
+    },
+    {
+      "id": "desserts-lemon-tart",
+      "categoryId": "desserts",
+      "name": {
+        "he": "טארט לימון",
+        "ru": "Лимонный тарт",
+        "en": "Lemon Tart"
+      },
+      "description": {
+        "he": "בסיס ברטון, קרם לימון ושוקולד לבן משובץ פטל אדום",
+        "ru": "Бретонская песочная основа, лимонный крем, белый шоколад и малина.",
+        "en": "Breton shortbread base with lemon cream, white chocolate and raspberries."
+      },
+      "priceILS": 58,
+      "priceDisplay": "58",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "desserts-petra-coconut-pistachio-dessert",
+      "categoryId": "desserts",
+      "name": {
+        "he": "פטרה קוקוס/פיסטוק",
+        "ru": "Десерт Petra: кокос / фисташка",
+        "en": "Petra Coconut / Pistachio Dessert"
+      },
+      "description": {
+        "he": "גלידת קוקוס או פיסטוק בציפוי שבבי פקאן ברוטב שוקולד חם",
+        "ru": "Кокосовое или фисташковое мороженое с орехом пекан и горячим шоколадным соусом.",
+        "en": "Coconut or pistachio ice cream topped with pecan pieces and hot chocolate sauce."
+      },
+      "priceILS": 62,
+      "priceDisplay": "62",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "desserts-red-velvet-cake",
+      "categoryId": "desserts",
+      "name": {
+        "he": "קוביית רד וולט",
+        "ru": "Красный бархат",
+        "en": "Red Velvet Cake"
+      },
+      "description": {
+        "he": "עוגת שכבות אמריקאית עם טורט פטל וקרם וניל",
+        "ru": "Слоёный американский десерт с малиновым бисквитом и ванильным кремом.",
+        "en": "American-style layered cake with raspberry sponge and vanilla cream."
+      },
+      "priceILS": 52,
+      "priceDisplay": "52",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "desserts-cr-me-br-l-e",
+      "categoryId": "desserts",
+      "name": {
+        "he": "קרם ברולה",
+        "ru": "Крем-брюле",
+        "en": "Crème Brûlée"
+      },
+      "description": {
+        "he": "עם פירות יער",
+        "ru": "С ягодами.",
+        "en": "Served with berries."
+      },
+      "priceILS": 56,
+      "priceDisplay": "56",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "desserts-alfredo-chocolate-fondant",
+      "categoryId": "desserts",
+      "name": {
+        "he": "סופלה אלפרדו",
+        "ru": "Шоколадный фондан «Альфредо»",
+        "en": "Alfredo Chocolate Fondant"
+      },
+      "description": {
+        "he": "פונדנט שוקולד חם עם טראפל שוקולד לבן בציפוי גנאש שוקולד חלב",
+        "ru": "Тёплый шоколадный фондан с трюфелем из белого шоколада и ганашем из молочного.",
+        "en": "Warm chocolate fondant with white-chocolate truffle and milk-chocolate ganache."
+      },
+      "priceILS": 54,
+      "priceDisplay": "54",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "desserts-cream-ice-cream-cake",
+      "categoryId": "desserts",
+      "name": {
+        "he": "עוגת גלידה שמנת",
+        "ru": "Сливочный торт-мороженое",
+        "en": "Cream Ice-Cream Cake"
+      },
+      "description": {
+        "he": "עם פירות יער",
+        "ru": "С ягодами.",
+        "en": "Served with berries."
+      },
+      "priceILS": 56,
+      "priceDisplay": "56",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "desserts-custard-doughnut",
+      "categoryId": "desserts",
+      "name": {
+        "he": "פונצ'יק",
+        "ru": "Пончик с заварным кремом",
+        "en": "Custard Doughnut"
+      },
+      "description": {
+        "he": "במילוי קרם פטיסייר, המחיר ליחידה",
+        "ru": "Пончик с кремом патисьер, цена за штуку.",
+        "en": "Filled with pastry cream; price per piece."
+      },
+      "priceILS": 18,
+      "priceDisplay": "18",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    },
+    {
+      "id": "desserts-pastry-cream-blini-classic-coffee",
+      "categoryId": "desserts",
+      "name": {
+        "he": "בליני פטיסייר קלאסי / קפה",
+        "ru": "Блинчики с кремом: классический / кофейный",
+        "en": "Pastry-Cream Blini: Classic / Coffee"
+      },
+      "description": {
+        "he": "בליני עם קרם פטיסייר בטעם קלאסי או קפה",
+        "ru": "Блинчики с заварным кремом: классический или кофейный вкус.",
+        "en": "Blini with classic or coffee-flavored pastry cream."
+      },
+      "priceILS": 58,
+      "priceDisplay": "58",
+      "isNewOnSource": false,
+      "image": null,
+      "review": []
+    }
+  ],
+  "extras": [
+    {
+      "id": "pasta-poached-egg",
+      "categoryId": "italian",
+      "title": {
+        "he": "תוספת ביצה עלומה למנות הפסטה",
+        "ru": "Добавить яйцо пашот к пасте",
+        "en": "Add poached egg to pasta"
+      },
+      "options": [
+        {
+          "name": {
+            "he": "ביצה עלומה",
+            "ru": "Яйцо пашот",
+            "en": "Poached egg"
+          },
+          "priceILS": 12
+        }
+      ]
+    },
+    {
+      "id": "pizza-toppings",
+      "categoryId": "italian",
+      "title": {
+        "he": "תוספות לפיצות",
+        "ru": "Дополнения к пицце",
+        "en": "Pizza Toppings"
+      },
+      "note": {
+        "he": "על חלק או על כל הפיצה",
+        "ru": "На половину или на всю пиццу",
+        "en": "On half or the whole pizza"
+      },
+      "options": [
+        {
+          "name": {
+            "he": "זיתי קלמטה",
+            "ru": "Оливки каламата",
+            "en": "Kalamata olives"
+          },
+          "priceILS": 4
+        },
+        {
+          "name": {
+            "he": "טונה",
+            "ru": "Тунец",
+            "en": "Tuna"
+          },
+          "priceILS": 6
+        },
+        {
+          "name": {
+            "he": "גבינה בולגרית",
+            "ru": "Болгарский белый сыр",
+            "en": "Bulgarian-style white cheese"
+          },
+          "priceILS": 6
+        },
+        {
+          "name": {
+            "he": "פטריות",
+            "ru": "Грибы",
+            "en": "Mushrooms"
+          },
+          "priceILS": 6
+        },
+        {
+          "name": {
+            "he": "נקניקיות",
+            "ru": "Колбаски",
+            "en": "Sausages"
+          },
+          "priceILS": 10
+        }
+      ]
+    },
+    {
+      "id": "burger-toppings",
+      "categoryId": "burgers",
+      "title": {
+        "he": "תוספות לבחירה על הבורגר",
+        "ru": "Дополнения к бургерам",
+        "en": "Burger Add-ons"
+      },
+      "options": [
+        {
+          "name": {
+            "he": "קציצה",
+            "ru": "Дополнительная котлета",
+            "en": "Extra patty"
+          },
+          "priceILS": 38
+        },
+        {
+          "name": {
+            "he": "בצל מטוגן",
+            "ru": "Жареный лук",
+            "en": "Fried onion"
+          },
+          "priceILS": 6
+        },
+        {
+          "name": {
+            "he": "ביצת עין",
+            "ru": "Яйцо-глазунья",
+            "en": "Fried egg"
+          },
+          "priceILS": 10
+        },
+        {
+          "name": {
+            "he": "פטריות",
+            "ru": "Грибы",
+            "en": "Mushrooms"
+          },
+          "priceILS": 8
+        },
+        {
+          "name": {
+            "he": "גבינת צ׳דר",
+            "ru": "Чеддер",
+            "en": "Cheddar"
+          },
+          "priceILS": 10
+        },
+        {
+          "name": {
+            "he": "3 טבעות בצל",
+            "ru": "3 луковых кольца",
+            "en": "Three onion rings"
+          },
+          "priceILS": 12
+        },
+        {
+          "name": {
+            "he": "ריבת בצל",
+            "ru": "Луковый конфитюр",
+            "en": "Onion jam"
+          },
+          "priceILS": 6
+        }
+      ]
+    },
+    {
+      "id": "hilton-omelette-toppings",
+      "categoryId": "breakfast",
+      "title": {
+        "he": "תוספות לחביתה בארוחת בוקר הילטון",
+        "ru": "Дополнения к яйцам в завтраке Hilton",
+        "en": "Hilton Breakfast Egg Add-ons"
+      },
+      "options": [
+        {
+          "name": {
+            "he": "גבינה צהובה",
+            "ru": "Жёлтый сыр",
+            "en": "Yellow cheese"
+          },
+          "priceILS": 8
+        },
+        {
+          "name": {
+            "he": "בצל",
+            "ru": "Лук",
+            "en": "Onion"
+          },
+          "priceILS": 5
+        },
+        {
+          "name": {
+            "he": "גבינה בולגרית",
+            "ru": "Болгарский белый сыр",
+            "en": "Bulgarian-style white cheese"
+          },
+          "priceILS": 8
+        },
+        {
+          "name": {
+            "he": "עגבניות",
+            "ru": "Помидоры",
+            "en": "Tomatoes"
+          },
+          "priceILS": 5
+        },
+        {
+          "name": {
+            "he": "פטריות",
+            "ru": "Грибы",
+            "en": "Mushrooms"
+          },
+          "priceILS": 10
+        }
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "fishSideOptions": {
+      "he": "צ׳יפס בלגי / פירה / אורז",
+      "ru": "Бельгийский картофель фри / пюре / рис",
+      "en": "Belgian fries / mashed potatoes / rice"
+    },
+    "breakfastHours": {
+      "he": "א׳-ה׳ 09:00–17:00, שישי עד 12:30, שבת עד 11:30",
+      "ru": "Вс–чт 09:00–17:00, пт до 12:30, сб до 11:30",
+      "en": "Sun–Thu 09:00–17:00, Fri until 12:30, Sat until 11:30"
+    },
+    "deliveryMinimum": {
+      "weekdaysILS": 100,
+      "weekendsILS": 250
+    },
+    "orderCutoff": "01:00",
+    "disclaimer": "Operating hours, delivery minimums and order cutoff were taken from Petra reference screenshots; verify with Petra staff before publishing."
+  }
+}
